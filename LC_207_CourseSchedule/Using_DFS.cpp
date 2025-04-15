@@ -16,7 +16,7 @@ bool dfs(int u, vector<bool>& visited, unordered_map<int, vector<int>>& adj, vec
         for (auto& x : prerequisites) {
             int u = x[0];
             int v = x[1];
-            adj[u].push_back(v);
+            adj[v].push_back(u);
         }
 
         vector<bool> visited(numCourses, false);
