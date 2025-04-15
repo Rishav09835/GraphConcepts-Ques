@@ -5,8 +5,8 @@ bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         for(auto & x: prerequisites){
             int u = x[0];
             int v = x[1];
-            adj[u].push_back(v);
-            indegree[v]++;
+            adj[v].push_back(u);
+            indegree[u]++;
         }
         //2.fill the queue
         queue<int> q;
