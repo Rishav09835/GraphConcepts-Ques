@@ -1,5 +1,5 @@
     vector<int> dijkstra(int V, vector<vector<int>> &edges, int src) {
-        // Code here
+        // Creating adjacency list to node and weight : 1->{2,3};
         vector<vector<pair<int,int>>> adj(V);
         for(auto& e : edges){
             int u = e[0];
@@ -8,6 +8,7 @@
             adj[u].push_back({v,w});
             adj[v].push_back({u,w});
         }
+        //min heap to store minimum elements at the top
         priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
         vector<int> result(V,INT_MAX);
         result[src]=0;
