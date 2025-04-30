@@ -23,4 +23,4 @@ I'm actively learning and updating this repo as I go. Feel free to explore, clon
 
 ---
 
-Thanks for checking it out! 🌱
+Thanks for checking it out! 
