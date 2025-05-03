@@ -18,7 +18,7 @@ Whether you're just starting with graphs or want to brush up on your knowledge, 
 - Topological sorting (BFS, DFS)
 
 ## 🚧 Work in Progress
-
+Currently paused!
 I'm actively learning and updating this repo as I go. Feel free to explore, clone, or contribute!
 
 ---
