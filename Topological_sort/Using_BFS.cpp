@@ -6,4 +6,9 @@ vector<int> topologicalSort(vector<vector<int>> &edges, int v, int e)  {
     int v = e[1];
     adj[v].push_back(u);
   }
+
+ stack<int> st;
+    while(!st.empty()){
+        
+    }
 }
