@@ -20,6 +20,7 @@ void Union(int x, int y)
 }
 
 int main(){
+  //solving main problem here using Union and Find
   parent.resize(n);
   rank.resize(n);
   return 0;
